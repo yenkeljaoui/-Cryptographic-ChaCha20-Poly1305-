@@ -8,14 +8,12 @@ This project implements **ChaCha20-Poly1305**, a modern **Authenticated Encrypti
 - **Confidentiality**: Achieved through **ChaCha20**, a high-speed stream cipher.
 - **Integrity & Authenticity**: Ensured by **Poly1305**, a secure cryptographic MAC.
 - **Secure Key Exchange**: Implemented using **ECDH on the secp256k1 curve**.
-- **Optimized for software**: Unlike AES-GCM, it runs efficiently on systems without hardware acceleration.
 
 ## 🚀 Features
 ✅ Implementation of **ChaCha20-Poly1305 AEAD** encryption.  
 ✅ Secure **ECDH key exchange** between two parties.  
 ✅ Protection against **side-channel attacks**.  
 ✅ Efficient **stream-based encryption** handling.  
-✅ Comparison with **traditional cryptographic methods** (e.g., AES-GCM).  
 
 ## 🛠 Installation & Setup
 Ensure you have **Node.js** installed, then clone the repository and install dependencies:
